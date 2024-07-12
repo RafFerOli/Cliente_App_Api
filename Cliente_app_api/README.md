@@ -1,6 +1,6 @@
 # Cliente APP API
 
-Este pequeno projeto tem como objetivo realizar o controle de informações dos clientes de uma empresa de pequeno porte através de uma API desenvolvida seguindo o estilo REST.
+Este pequeno projeto tem como objetivo realizar o controle de informações dos clientes de uma pequena empresa através de uma API desenvolvida seguindo o estilo REST.
 
 O objetivo aqui é demonstrar parte do conhecimento adquirido durante a disciplina de **Arquitetura de Software** 
 
@@ -32,7 +32,7 @@ Este comando instala as dependências/bibliotecas, descritas no arquivo `require
 ### Executando o servidor
 
 
-Para executar a API deve se ir até a pasta **app** e executar o comando:
+Para executar a API deve se ir via terminal até a pasta **"app"** e executar o seguinte comando comando:
 
 ```
 (env)$ flask run --host 0.0.0.0 --port 5000
@@ -49,6 +49,8 @@ automaticamente após uma mudança no código fonte.
 ### Acesso no browser
 
 Abra o [http://localhost:5000/#/](http://localhost:5000/#/) no navegador para verificar o status da API em execução.
+
+> Para executar o sistema completo será necessário fazer o download do projeto [Cliente App Front](https://github.com/RafFerOli/Fluxo_App_Front/tree/main), salvar a pasta Cliente_app_front e Cliente_app_api no mesmo diretório, abrir o diretório na IDE de sua escolha e seguir as instruções de [README.md](https://github.com/RafFerOli/Cliente_App_Front/blob/main/Cliente_app_front/README.md).
 
 ---
 ## Como executar através do Docker
